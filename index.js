@@ -31,4 +31,5 @@ function switchOnCharmFromTip (tip) {
     default:
       charm = 'Bye.';
   }
+  return charm;
 }
