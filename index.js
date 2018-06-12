@@ -8,3 +8,10 @@ function scuberGreetingForFeet(feet) {
   return greeting;
 }
 
+function ternaryCheckCity() {
+  
+}
+
+function switchOnCharmFromTip() {
+  
+}
