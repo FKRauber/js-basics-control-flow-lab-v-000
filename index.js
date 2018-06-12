@@ -7,3 +7,5 @@ function scuberGreetingForFeet(feet) {
   }
   return greeting;
 }
+
+scuberGreetingForFeet(199);
