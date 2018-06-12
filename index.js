@@ -1,6 +1,6 @@
 // Write your code in this file!
 
-function scuberGreetingForFeet(feet) {
+function scuberGreetingForFeet (feet) {
   let greeting;
   if (feet <= 400) {
     greeting = "This one is on me!";
@@ -19,6 +19,16 @@ function ternaryCheckCity (city) {
   return message;
 }
 
-function switchOnCharmFromTip() {
-
+function switchOnCharmFromTip (tip) {
+  let charm;
+  switch (tip) {
+    case 'generous':
+      charm = 'Thank you so much.';
+      break;
+    case 'not as generous':
+      charm = 'Thank you.';
+      break;
+    default:
+      charm = 'Bye.';
+  }
 }
